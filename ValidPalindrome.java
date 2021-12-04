@@ -1,5 +1,5 @@
-//import java.util.*;
-//import java.util.lang.*;
+import java.util.*;
+import java.util.lang.*;
 
 class Solution {
     public boolean isPalindrome(String s) {
@@ -15,8 +15,8 @@ class Solution {
         else 
             return false;*/
          if(s==null){
-        return false;
-    }
+            return false;
+         }
  
     s = s.toLowerCase();
  

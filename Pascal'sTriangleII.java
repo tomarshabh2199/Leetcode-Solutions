@@ -1,3 +1,7 @@
+import java.util.*;
+import java.util.lang.*;
+import java.io.*;
+
 class Solution {
     public List<Integer> getRow(int rowIndex) {
 	ArrayList<Integer> result = new ArrayList<Integer>();
@@ -13,5 +17,5 @@ class Solution {
 		result.add(1);
 	}
 	return result;
-}
+   }
 }

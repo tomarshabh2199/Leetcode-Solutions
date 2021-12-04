@@ -1,3 +1,7 @@
+import java.util.*;
+import java.util.lang.*;
+import java.io.*;
+
 class MyHashSet {
 
     /** Initialize your data structure here. */

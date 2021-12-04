@@ -1,4 +1,7 @@
 //Python 3 Solution
+
+import numpy as np
+
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         rotten = []

@@ -1,7 +1,11 @@
+import java.util.*;
+import java.util.lang.*;
+import java.io.*;
+
 class CombinationIterator {
      private String s;
-    Queue<String>q;
-    private void getcombination(int start,int length,StringBuilder txt){
+     Queue<String>q;
+     private void getcombination(int start,int length, StringBuilder txt){
         if(length==0){ 
             q.add(txt.toString());
             return ;

@@ -1,5 +1,9 @@
 
-JAVA Solution
+//JAVA Solution
+import java.util.*;
+import java.util.lang.*;
+import java.io.*;
+
 class Solution {
     public int longestPalindrome(String s) {
         Map<Character,Integer>counts=new HashMap();

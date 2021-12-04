@@ -1,3 +1,7 @@
+#include<bits/stdc++.h>
+#include<iostream.h>
+using namespace std;
+
 class Solution {
 public:
     vector<int> findDuplicates(vector<int>nums) {
